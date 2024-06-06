@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: font;
+    src: url("./Poppins/Poppins-Regular.ttf");
+}
+body{
+   font-family: font;
+}
+
+.fa-solid, .fa-regular{
+    font-size: 25px;
+}
+.nav-link{
+    font-size: 14px;
+}
+
+.hover:hover {
+   border-bottom: 2px solid black ;
+}
+.home{
+    border-bottom: 2px solid black ;
+}
+.img-fluid{
+    height: 380px;
+    background-size: cover;
+}
